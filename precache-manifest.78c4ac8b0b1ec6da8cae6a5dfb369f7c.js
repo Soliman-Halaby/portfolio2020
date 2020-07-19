@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc199593ff42b93d9c6e617a6c66ecbb",
+    "revision": "3dd6084d2e83c1ec7257457af06b4f54",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "8dc9c6602a6b93be2b74",
-    "url": "/portfolio/static/css/main.eea48d62.chunk.css"
+    "revision": "4a43b2b2624259a95397",
+    "url": "/portfolio/static/css/main.67a18da1.chunk.css"
   },
   {
-    "revision": "e619a4daeb25e26b5b13",
-    "url": "/portfolio/static/js/2.812efbf5.chunk.js"
+    "revision": "a12921334abfdf7e3953",
+    "url": "/portfolio/static/js/2.5c72b45c.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.812efbf5.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.5c72b45c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8dc9c6602a6b93be2b74",
-    "url": "/portfolio/static/js/main.2ea53956.chunk.js"
+    "revision": "4a43b2b2624259a95397",
+    "url": "/portfolio/static/js/main.86e66a0c.chunk.js"
   },
   {
     "revision": "f73cb6802a5442b1ce5a",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b2e49dce1ce347a633f73c890c7a1f00",
     "url": "/portfolio/static/media/CV_Soliman_Al_Halaby.b2e49dce.pdf"
+  },
+  {
+    "revision": "9739f92233946479b72c4070d85791f2",
+    "url": "/portfolio/static/media/computer.9739f922.svg"
   },
   {
     "revision": "10b94d27c8cdf04fed921729df567348",

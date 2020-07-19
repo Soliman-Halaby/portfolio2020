@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eea48d62.chunk.css",
-    "main.js": "/portfolio/static/js/main.2ea53956.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2ea53956.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.67a18da1.chunk.css",
+    "main.js": "/portfolio/static/js/main.86e66a0c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.86e66a0c.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7dc54a26.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7dc54a26.js.map",
-    "static/js/2.812efbf5.chunk.js": "/portfolio/static/js/2.812efbf5.chunk.js",
-    "static/js/2.812efbf5.chunk.js.map": "/portfolio/static/js/2.812efbf5.chunk.js.map",
+    "static/js/2.5c72b45c.chunk.js": "/portfolio/static/js/2.5c72b45c.chunk.js",
+    "static/js/2.5c72b45c.chunk.js.map": "/portfolio/static/js/2.5c72b45c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.45a83adc00e7d4502683d323821c3e7b.js": "/portfolio/precache-manifest.45a83adc00e7d4502683d323821c3e7b.js",
+    "precache-manifest.78c4ac8b0b1ec6da8cae6a5dfb369f7c.js": "/portfolio/precache-manifest.78c4ac8b0b1ec6da8cae6a5dfb369f7c.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.eea48d62.chunk.css.map": "/portfolio/static/css/main.eea48d62.chunk.css.map",
-    "static/js/2.812efbf5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.812efbf5.chunk.js.LICENSE.txt",
+    "static/css/main.67a18da1.chunk.css.map": "/portfolio/static/css/main.67a18da1.chunk.css.map",
+    "static/js/2.5c72b45c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5c72b45c.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/portfolio/static/media/CV_Soliman_Al_Halaby.b2e49dce.pdf",
+    "static/media/computer.svg": "/portfolio/static/media/computer.9739f922.svg",
     "static/media/drumpad.png": "/portfolio/static/media/drumpad.10b94d27.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg",
     "static/media/phone.svg": "/portfolio/static/media/phone.9ffa0ba9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7dc54a26.js",
-    "static/js/2.812efbf5.chunk.js",
-    "static/css/main.eea48d62.chunk.css",
-    "static/js/main.2ea53956.chunk.js"
+    "static/js/2.5c72b45c.chunk.js",
+    "static/css/main.67a18da1.chunk.css",
+    "static/js/main.86e66a0c.chunk.js"
   ]
 }
