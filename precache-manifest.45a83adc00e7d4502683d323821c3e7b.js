@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f189b11d9a3b04c7cff53309598f107",
+    "revision": "fc199593ff42b93d9c6e617a6c66ecbb",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a38a6c215ecfea5441ee",
-    "url": "/portfolio/static/css/main.a8b9b552.chunk.css"
+    "revision": "8dc9c6602a6b93be2b74",
+    "url": "/portfolio/static/css/main.eea48d62.chunk.css"
   },
   {
-    "revision": "10aa6a64a39317f5499a",
-    "url": "/portfolio/static/js/2.c4804db5.chunk.js"
+    "revision": "e619a4daeb25e26b5b13",
+    "url": "/portfolio/static/js/2.812efbf5.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.c4804db5.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.812efbf5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a38a6c215ecfea5441ee",
-    "url": "/portfolio/static/js/main.9ac73e2b.chunk.js"
+    "revision": "8dc9c6602a6b93be2b74",
+    "url": "/portfolio/static/js/main.2ea53956.chunk.js"
   },
   {
     "revision": "f73cb6802a5442b1ce5a",
     "url": "/portfolio/static/js/runtime-main.7dc54a26.js"
   },
   {
+    "revision": "b2e49dce1ce347a633f73c890c7a1f00",
+    "url": "/portfolio/static/media/CV_Soliman_Al_Halaby.b2e49dce.pdf"
+  },
+  {
     "revision": "10b94d27c8cdf04fed921729df567348",
-    "url": "/portfolio/static/media/firstProject.10b94d27.png"
+    "url": "/portfolio/static/media/drumpad.10b94d27.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
