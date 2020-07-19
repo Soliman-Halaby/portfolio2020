@@ -1,53 +1,196 @@
 import React from 'react';
-import logo from './logo.svg';
-import phone from './images/phone.svg'
-import style from './App.css'
-import project from './images/drumpad.png'
-import cv from './images/CV_Soliman_Al_Halaby.pdf'
+import Footer from './Footer'
+import Card from './Card'
+import project from './images/oralB.png'
+import project1 from './images/diceRoller.png'
+import project2 from './images/milleBoards.png'
+import project3 from './images/drumpad.png'
+import project4 from './images/savoirMag.png'
+import project5 from './images/gameBoy.png'
+
+import './App.css'
 
 function App() {
   return (
   <div className="pageContainer">
     <div className="gallerie">
-      <div class="cardContainer">
-        <div className="card">
-          <a class="projectLink" href="https://soliman-halaby.github.io/drumPad/" >
-            <img className="projectImg" src={project} alt="Project representation"/>
-          </a>
-          <div className="cardTitle">
-            <img className="responsivePhone" id="greenColor" src={phone} alt="Phone responsive"></img>
-            <img className="responsiveComputer" id="greenColor" src={phone} alt="Phone responsive"></img>
-            <a class="projectTitle" href="https://soliman-halaby.github.io/drumPad/">Drumpad</a>
-          </div>
-          <div className="cardDate">Fait le 12/05/2020</div>
-          <div className="cardDescription">
-            Seul, réaliser un Drum Pad en JS. Avoir plusieurs sons et les contrôler + animations. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code.
-          </div>
-          <div className="cardBottom">
-            <div className="containerDetail">
-              <div className="oneThird">
-                <div className="cardGrade">Note : <span class="grade">20</span></div>
-              </div>
-              <div className="twoThird">
-                <div className="madeFor">Fais pour :
-                  <a className="name" href="https://github.com/brunosimon" target="_blank">Bruno Simon</a>
-                </div>
-              </div>
-            </div>
-            <div className="containerBottom">
-              <div className="madeWith">Fais avec :</div>
-              <a className="participant participant1" target="_blank" href="#">Coucou</a>
-              <a className="participant participant2" target="_blank" href="#">Coucou</a>
-              <a className="participant participant3" target="_blank" href="#">Coucou</a>
-            </div>
-          </div> 
-        </div>   
-      </div>
+      <Card 
+        title="Oral B"
+        projectImage={project}
+        projectLink="https://soliman-halaby.github.io/oralB-io/"
+
+        phoneColor="orangeColor"
+        computerColor="orangeColor"
+        cardDescription="Refonte du site OralB iO en semaine intensive."
+        projectDate="Conçu pour le 12/04/2020"
+        projectGrade="12"
+        madeForWho='Semaine intensive'
+        madeFor={[
+          {
+            name:'',
+            url:''
+          }
+        ]}
+        bottomCard='Réalisé avec :'
+        mates={[
+          {
+            name: 'Je sais plus',
+            url: '',
+          }
+        ]}
+      />
+      <Card 
+        title="Dice Roller"
+        projectImage={project1}
+        projectLink="https://soliman-halaby.github.io/diceRoller/"
+
+        phoneColor="redColor"
+        computerColor="greenColor"
+        cardDescription="Seul, réaliser un lanceur de dés (dice roller) en JS. Pouvoir lancer au minimum un dé. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
+        projectDate="Conçu pour le 12/04/2020"
+        projectGrade="19.25"
+        madeForWho='Fait pour :'
+        madeFor={[
+          {
+            name:'Bruno Simon',
+            url:'https://github.com/brunosimon'
+          }
+        ]}
+        bottomCard=''
+        mates={[
+          {
+            name: '',
+            url: '',
+          }
+        ]}
+      />
+      <Card 
+        title="Mille Boards"
+        projectImage={project2}
+        projectLink="https://robinb-dev.github.io/milleBoards/"
+        phoneColor="redColor"
+        computerColor="greenColor"
+        cardDescription="Création en groupe d'un jeu en JavaScript"
+        projectDate="Conçu pour le 24/04/2020"
+        projectGrade="12"
+        madeForWho='Semaine intensive'
+        madeFor={[
+          {
+            name:'',
+            url:''
+          }
+        ]}
+        bottomCard='Réalisé avec :'
+        mates={[
+          {
+            name:'Robin',
+            url:'https://github.com/RobinB-dev'
+          },
+          {
+            name:'Alexandra',
+            url:'https://github.com/alexandrabernard'
+          },
+          {
+            name:'Paul',
+            url:'https://github.com/Umb3rs'
+          },
+          {
+            name:'Philippe',
+            url:'https://github.com/Chompy0067'
+          },
+        ]}
+      />
+      <Card 
+        title="Drum Pad"
+        projectImage={project3}
+        projectLink="https://soliman-halaby.github.io/drumPad/"
+        phoneColor="greenColor"
+        computerColor="greenColor"
+        cardDescription="Seul, réaliser un Drum Pad en JS. Avoir plusieurs sons et les contrôler + animations. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
+        projectDate="Conçu pour le 12/05/2020"
+        projectGrade="17"
+        madeForWho='Fait pour :'
+        madeFor={[
+          {
+            name:'Bruno Simon',
+            url:'https://github.com/brunosimon'
+          }
+        ]}
+        bottomCard=''
+        mates={[
+          {
+            name:'',
+            url:''
+          },
+          {
+            name:'',
+            url:''
+          },
+          {
+            name:'',
+            url:''
+          },
+          {
+            name:'',
+            url:''
+          },
+        ]}
+      />
+      <Card 
+        title="Savoir Magazine"
+        projectImage={project4}
+        projectLink="https://robinb-dev.github.io/savoir/"
+        phoneColor="orangeColor"
+        computerColor="greenColor"
+        cardDescription="Création d'un site pour le magazine Savoir."
+        projectDate="Conçu pour le 19/05/2020"
+        projectGrade="17"
+        madeForWho='Projet de Culture Générale'
+        madeFor={[
+          {
+            name:'',
+            url:''
+          }
+        ]}
+        bottomCard='Réalisé avec :'
+        mates={[
+          {
+            name:'Robin',
+            url:'https://github.com/RobinB-dev'
+          },
+          {
+            name:'Christophe',
+            url:'https://github.com/Chriiiiiss'
+          },
+        ]}
+      />
+      <Card 
+        title="Game Boy"
+        projectImage={project5}
+        projectLink="https://soliman-halaby.github.io/gameBoy/"
+        phoneColor="redColor"
+        computerColor="greenColor"
+        cardDescription="Seul, vous devez réaliser un Game Boy en HTML / CSS /JS. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
+        projectDate="Conçu pour le 15/06/2020"
+        projectGrade="18"
+        madeForWho='Fait pour :'
+        madeFor={[
+          {
+            name:'Bruno Simon',
+            url:'https://github.com/brunosimon'
+          }
+        ]}
+        bottomCard=''
+        mates={[
+          {
+            name:'',
+            url:''
+          },
+        ]}
+      />
     </div>
-    <footer className="footer">
-      <span className="download">Télécharger</span><a className="cv" href={cv} target="_blank">mon CV</a>
-    </footer>
-  </div>
+    <Footer/>
+$  </div>
   );
 }
 

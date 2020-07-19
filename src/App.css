@@ -1,15 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
  *{
 	 box-sizing: border-box;
 }
- body {
-	/* background: linear-gradient(to bottom, rgba(140, 122, 122, 1) 0%, rgba(175, 135, 124, 1) 65%, rgba(175, 135, 124, 1) 100%) fixed; */
-	/* background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg') no-repeat center center fixed; */
-	font: 14px/20px "Lato", Arial, sans-serif;
+
+ body{
+	font: 14px/20px "Montserrat", sans-serif;
 	margin-top: 30px;
-	background: #F1F1F1;
+	background: #f9f9f9;
 }
-.gallerie {
+
+::selection{
+	background-color: #999999;
+	color: #ffffff;
+}
+
+.gallerie{
 	display: flex;
 	width: 100%;
 	max-width: 1700px;
@@ -17,8 +22,7 @@
 	flex-wrap: wrap;
 }
 
- .cardContainer {
-	
+ .cardContainer{
 	margin: auto;
 	max-width: 400px;
 	width: 30%;
@@ -26,21 +30,25 @@
 	margin-bottom: 30px;
 }
 
- .card {
-	 background: #ffffff;
-	 width: 100%;
-	 border-radius: 19px;
-	 position: relative;
-	 text-align: center;
-	 box-shadow: 0px 6px 20px -16px black;
-	 z-index: 9999;
+ .card{
+	background: #ffffff;
+	width: 100%;
+	border-radius: 19px;
+	position: relative;
+	text-align: center;
+	box-shadow: 0px 6px 20px -16px black;
+	z-index: 9999;
+	height: 500px;	 
 }
 
 .projectImg{
 	margin-top: 3px;
+	margin-bottom: 7px;
 	width: 96%;
 	border-radius: 10px;
 	transition: transform 0.5s;
+	user-select: none;
+	height: 50%;
 }
 
 .projectTitle{
@@ -53,11 +61,11 @@
 	transition: transform 0.5s;
 }
 
- .cardDate {
-	 font-size: 12px;
-	 color: #666666;
-	 font-weight: 700;
-	 margin-bottom: 3px;
+.cardDate{
+	font-size: 12px;
+	color: #666666;
+	font-weight: 500;
+	margin-bottom: 3px;
 }
 
 .responsivePhone{
@@ -65,6 +73,7 @@
 	position: absolute;
 	left: 3px;
 	border-radius: 5px;
+	user-select: none;
 }
 
 #greenColor{
@@ -72,26 +81,26 @@
 }
 
 #redColor{
-	background: linear-gradient(30deg, #1cd061 10%, #93F9B9 100%);
+	background: linear-gradient(30deg, #de7979 10%, #ff4343 100%);
 }
 
 #orangeColor{
-	background: linear-gradient(30deg, #1cd061 10%, #93F9B9 100%);
+	background: linear-gradient(30deg, #fbac74 10%, #ffa81d 100%);
 }
 
 .responsiveComputer{
 	width: 27px;
+	height: 27px;
 	position: absolute;
 	left: 37px;
-	background: blue;
 	border-radius: 5px;
+	user-select: none;
 }
-
 
  .cardTitle{
 	 font-size: 26px;
 	 color: #222222;
-	 font-weight: 700;
+	 font-weight: 600;
 	 margin-bottom: 5px;
 }
 
@@ -133,12 +142,11 @@
 }
 
 .name {
-	 font-weight: 400;
-	 font-size: 16px;
-	 text-decoration: none;;
-	 color: #000000;
-	 margin-left: 5px;
-	 font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;;
+	color: #000000;
+	margin-left: 5px;
+	font-weight: 500;
 }
 
 .cardGrade{
@@ -147,7 +155,7 @@
 
 .grade{
 	color: #000000;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .madeWith{
@@ -168,13 +176,13 @@
 .containerDetail{
 	border-bottom: 1px solid #333333;
 	background: #f1f1f1;
-
 }
 
 .containerBottom{
 	background: #ffffff;
 	border-bottom-left-radius: 14px;
 	border-bottom-right-radius: 14px;
+	
 }
 
 .footer{
