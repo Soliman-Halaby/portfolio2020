@@ -1,193 +1,196 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+ *{
+	 box-sizing: border-box;
+}
+ body {
+	/* background: linear-gradient(to bottom, rgba(140, 122, 122, 1) 0%, rgba(175, 135, 124, 1) 65%, rgba(175, 135, 124, 1) 100%) fixed; */
+	/* background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg') no-repeat center center fixed; */
+	font: 14px/20px "Lato", Arial, sans-serif;
+	margin-top: 30px;
+	background: #F1F1F1;
+}
 .gallerie {
+	display: flex;
+	width: 100%;
+	max-width: 1700px;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+ .cardContainer {
+	
+	margin: auto;
+	max-width: 400px;
+	width: 30%;
+	min-width: 350px;
+	margin-bottom: 30px;
+}
+
+ .card {
+	 background: #ffffff;
+	 width: 100%;
+	 border-radius: 19px;
+	 position: relative;
+	 text-align: center;
+	 box-shadow: 0px 6px 20px -16px black;
+	 z-index: 9999;
+}
+
+.projectImg{
+	margin-top: 3px;
+	width: 96%;
+	border-radius: 10px;
+	transition: transform 0.5s;
+}
+
+.projectTitle{
+	text-decoration: none;
+	color: #222222;
+}
+
+.projectImg:hover{
+	transform: scale(1.02);
+	transition: transform 0.5s;
+}
+
+ .cardDate {
+	 font-size: 12px;
+	 color: #666666;
+	 font-weight: 700;
+	 margin-bottom: 3px;
+}
+
+.responsivePhone{
+	width: 27px;
+	position: absolute;
+	left: 3px;
+	border-radius: 5px;
+}
+
+#greenColor{
+	background: linear-gradient(30deg, #1cd061 10%, #93F9B9 100%);
+}
+
+#redColor{
+	background: linear-gradient(30deg, #1cd061 10%, #93F9B9 100%);
+}
+
+#orangeColor{
+	background: linear-gradient(30deg, #1cd061 10%, #93F9B9 100%);
+}
+
+.responsiveComputer{
+	width: 27px;
+	position: absolute;
+	left: 37px;
+	background: blue;
+	border-radius: 5px;
+}
+
+
+ .cardTitle{
+	 font-size: 26px;
+	 color: #222222;
+	 font-weight: 700;
+	 margin-bottom: 5px;
+}
+
+ .cardDescription{
+	 padding: 10px;
+	 margin-bottom: 15px;
+}
+
+ .cardBottom {
+	border-top: 1px solid #333333;
+	font-weight: 300;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+}
+
+.cardBottom .oneThird {
+	 width: 33%;
+	 float: left;
+	 margin-top: 5px;
+}
+
+.cardBottom .twoThird{
+  width: 66%;
   display: flex;
-  width: 100%;
-  max-width: 1700px;
-  margin: 70px auto;
-  background: crimson;
-  flex-wrap: wrap;
-}
-
-.card {
-  border-radius: 16px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  width: 600px;
-  height: 50%;
-  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  background-image: url(./images/firstProject.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat
-}
-
-.info {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-color: #fff;
-  transform: 
-  translateY(100%)
-  translateY(-88px)
-  translateZ(0);
-  transition: transform 0.3s ease-out;
-}
-
-.info:before{
-  z-index: -1;
-  display: block;
-  position: absolute;
-  content: '';
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-image: url(./images/firstProject.png);
-  filter: blur(10px);
-  background-size: 100% 100%;
-  opacity: 0.25;
-  transform: 
-  translateY(-100%)
-  translateY(88px)
-  translateZ(0);
-  transition: 0.3s ease-out;
-}
-
-.title, .smallTitle {
-  display: flex;
-  margin: 0px;
-  line-height: 20px;
   justify-content: center;
-  text-align: center;
-  padding: 0px 15px 15px;
-  font-size: 25px;
-  line-height: 1.5;
+  flex-direction: column;
+  border-left: 1px solid #333333;
 }
 
-.smallTitle{
-  font-size: 15px;
-  display: flex;
-  justify-items: flex-end;
-  padding: 0;
-}
-
-.card:hover .info, .card:hover .info:before {
-  transform: 
-  translateY(0)
-  translateZ(0);
-}
-
-.description{
-  margin-left: 7px;
-  margin-right: 7px;
-}
-
-.innerTitle{
-  margin-left: 7px;
-  margin-bottom: 0;
+ .madeFor, .cardGrade{
+	 font-size: 24px;
+	 margin-bottom: 10px;
+	 color: #555555;
 }
 
 .madeFor{
-  font-weight: 700;
-  margin: 7px;
-}
-.forWho{
-  text-decoration: none;
-  color: #333333;
-  font-weight: 400;
+	margin-top: 5px;
+	font-size: 18px;
 }
 
-.context{
-  margin-left: 7px;
-  font-weight: 700;
-}
-.contextInfo{
-  color: #333333;
-  font-weight: 400;
-}
-
-.bottomCard{
-  margin-top: -25px;
+.name {
+	 font-weight: 400;
+	 font-size: 16px;
+	 text-decoration: none;;
+	 color: #000000;
+	 margin-left: 5px;
+	 font-weight: 600;
 }
 
-.gradeContainer{
-  display: flex;
-  flex-wrap: nowrap;
-  margin-top: 10px;
+.cardGrade{
+	font-size: 18px;
 }
 
-.detail{
-  display: flex;
-  justify-content: center;
-  line-height: 30px;
-  cursor: pointer;
-  margin-left: 15px;
-  margin-top: 3px;
-  font-size: 80%;
-  max-width: 60px;
-  width: 20%;
-  height: 100%;
-  border-radius: 50px;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
-  box-shadow: 7px 7px 15px rgba(16, 17, 20, 0.15),
-  -7px -7px 20px rgba(255, 255, 255, 1),
-  inset 0px 0px 4px rgba(255, 255, 255, .2),
-  inset 7px 7px 15px rgba(11, 12, 15, 0),
-  inset -7px -7px 20px rgba(255, 255, 255, 0),
-  0px 0px 4px rgba(255, 255, 255, 0);
-  user-select: none;
+.grade{
+	color: #000000;
+	font-weight: 600;
 }
 
-.detail:active{
-  border-radius: 50px;
-  background: linear-gradient(145deg, #e6e6e6, #ffffff);
-  box-shadow: 7px 7px 15px rgba(9, 10, 11, 0.15),
-  -7px -7px 20px rgba(255, 255, 255, 1),
-  inset 0px 0px 4px rgba(24, 21, 21, 0),
-  inset 7px 7px 15px rgba(22, 23, 27, 0.15),
-  inset -7px -7px 20px rgba(255, 255, 255, 1),
-  0px 0px 4px rgba(255, 255, 255, .2);
+.madeWith{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	margin: 4px 0;
+	color: #000000;
 }
 
-.boxGrade{
-  display: flex;
-  flex-direction: column;
+.participant{
+	margin-left: 20px;
+	text-decoration: none;
+	color: #222222;
 }
 
-.detailText{
-  font-size: 15px;
-  margin-left: 7px;
-  /* opacity: 0; */
+.containerDetail{
+	border-bottom: 1px solid #333333;
+	background: #f1f1f1;
+
 }
 
-.detailGrade{
-  color: #444444;
+.containerBottom{
+	background: #ffffff;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
 }
 
-.myGrade{
-  color: #444444;
-  font-weight: bolder;
+.footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 100%;
 }
 
-.detailText:first-child{
-  margin-top: 10px;
+.cv{
+	text-decoration: none;
+	margin-left: 5px;
+	color: #000000;
+	font-weight: 500;
 }
 
-.pictoContainer{
-  display: flex;
-  position: absolute;
-}
-
-.titlePicto{
-  width: 25px;
-  height: 25px;
-  border-radius: 20%;
-  margin-left: 5px;
-  background: red;
-}
-
-.phoneResponsive{
-  width: 25px;
-  height: auto;
+.download{
+	color: #555555;
 }
