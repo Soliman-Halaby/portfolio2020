@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.67a18da1.chunk.css",
-    "main.js": "/portfolio/static/js/main.86e66a0c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.86e66a0c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1b54a521.chunk.css",
+    "main.js": "/portfolio/static/js/main.adcec47d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.adcec47d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7dc54a26.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7dc54a26.js.map",
-    "static/js/2.5c72b45c.chunk.js": "/portfolio/static/js/2.5c72b45c.chunk.js",
-    "static/js/2.5c72b45c.chunk.js.map": "/portfolio/static/js/2.5c72b45c.chunk.js.map",
+    "static/js/2.be7197f2.chunk.js": "/portfolio/static/js/2.be7197f2.chunk.js",
+    "static/js/2.be7197f2.chunk.js.map": "/portfolio/static/js/2.be7197f2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.78c4ac8b0b1ec6da8cae6a5dfb369f7c.js": "/portfolio/precache-manifest.78c4ac8b0b1ec6da8cae6a5dfb369f7c.js",
+    "precache-manifest.ee810e2780c5c350ed9d2a11de5c53f2.js": "/portfolio/precache-manifest.ee810e2780c5c350ed9d2a11de5c53f2.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.67a18da1.chunk.css.map": "/portfolio/static/css/main.67a18da1.chunk.css.map",
-    "static/js/2.5c72b45c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5c72b45c.chunk.js.LICENSE.txt",
+    "static/css/main.1b54a521.chunk.css.map": "/portfolio/static/css/main.1b54a521.chunk.css.map",
+    "static/js/2.be7197f2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.be7197f2.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/portfolio/static/media/CV_Soliman_Al_Halaby.b2e49dce.pdf",
     "static/media/computer.svg": "/portfolio/static/media/computer.9739f922.svg",
+    "static/media/diceRoller.png": "/portfolio/static/media/diceRoller.afea9081.png",
     "static/media/drumpad.png": "/portfolio/static/media/drumpad.10b94d27.png",
-    "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg",
-    "static/media/phone.svg": "/portfolio/static/media/phone.9ffa0ba9.svg"
+    "static/media/gameBoy.png": "/portfolio/static/media/gameBoy.79ddd4cf.png",
+    "static/media/milleBoards.png": "/portfolio/static/media/milleBoards.610398f4.png",
+    "static/media/oralB.png": "/portfolio/static/media/oralB.3e05145d.png",
+    "static/media/phone.svg": "/portfolio/static/media/phone.9ffa0ba9.svg",
+    "static/media/savoirMag.png": "/portfolio/static/media/savoirMag.20de1326.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7dc54a26.js",
-    "static/js/2.5c72b45c.chunk.js",
-    "static/css/main.67a18da1.chunk.css",
-    "static/js/main.86e66a0c.chunk.js"
+    "static/js/2.be7197f2.chunk.js",
+    "static/css/main.1b54a521.chunk.css",
+    "static/js/main.adcec47d.chunk.js"
   ]
 }
