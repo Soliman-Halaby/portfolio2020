@@ -1,16 +1,42 @@
 import React from 'react';
-import lol from  './images/firstProject.png'
+import phone from './images/phone.svg'
+import computer from './images/computer.svg'
 
 function Card(props) {
-    const { title, content } = props;
+    const { title, projectImage, projectLink, mates, phoneColor, computerColor, cardDescription, projectDate, projectGrade, madeFor, bottomCard, madeForWho} = props;
 
     return (
+        <div class="cardContainer">
         <div className="card">
-            <img src={lol} alt="tg" className="card-img" />
-            <h2>{title}</h2>
-            <p>{content} </p>
-            <button>Voir le projet</button>
-        </div>
+          <a class="projectLink" href={projectLink} target="_blank" >
+            <img className="projectImg" src={projectImage} alt="Project representation"/>
+          </a>
+          <div className="cardTitle">
+            <img className="responsivePhone" id={phoneColor} src={phone} alt="Phone responsive"></img>
+            <img className="responsiveComputer" id={computerColor} src={computer} alt="Computer responsive"></img>
+            <a class="projectTitle" href="https://soliman-halaby.github.io/drumPad/">{title}</a>
+          </div>
+          <div className="cardDate">{projectDate}</div>
+          <div className="cardDescription">{cardDescription}</div>
+          <div className="cardBottom">
+            <div className="containerDetail">
+              <div className="oneThird">
+                <div className="cardGrade">Note : <span class="grade">{projectGrade}</span></div>
+              </div>
+              <div className="twoThird">
+                <div className="madeFor">
+                    {madeForWho}
+                    {madeFor.map(madeFor => <a className="name" href={madeFor.url} target="_blank">{madeFor.name}</a>)}
+                </div>
+              </div>
+            </div>
+            <div className="containerBottom">
+                <div className="madeWith">{bottomCard}</div>
+                {mates.map(mate => <a className="participant" target="_blank" href={mate.url}>{mate.name}</a>)}
+            </div>
+          </div> 
+        </div>   
+      </div>
     )
 }
 
