@@ -1,6 +1,5 @@
 # Portfolio
 Discover all Discover all my projects through my portfolio.
-my projects through my portfolio.
 
 ## Installation
 This portfolio was made with [React JS](https://fr.reactjs.org/). If you download the files from Github you will need to open it with the terminal.
