@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Footer from './Footer'
 import Card from './Card'
 import project from './images/oralB.png'
@@ -7,12 +7,21 @@ import project2 from './images/milleBoards.png'
 import project3 from './images/drumpad.png'
 import project4 from './images/savoirMag.png'
 import project5 from './images/gameBoy.png'
+import moonLight from './images/iconMoon.svg'
+import moonDark from './images/iconSunDark.svg'
 
 import './App.css'
-
 function App() {
+  const [isDarkMode, setDarkMode] = useState(false)
+  const handleDarkMode = () => {
+    setDarkMode(!isDarkMode);
+  }
+
   return (
-  <div className="pageContainer">
+  <div className="pageContainer" data-theme={isDarkMode ? "dark": "light"}>
+    <h1 className="pageTitle">Mon Portfolio</h1>
+    <img className="pageTheme" src={isDarkMode ? moonDark: moonLight} alt="Moon Theme" onClick={handleDarkMode}></img>
+    <h4 className="madeWithReact">Codé avec <a className="reactJS" href="https://fr.reactjs.org/">React JS</a></h4>
     <div className="gallerie">
       <Card 
         title="Oral B"
@@ -22,7 +31,8 @@ function App() {
         phoneColor="orangeColor"
         computerColor="orangeColor"
         cardDescription="Refonte du site OralB iO en semaine intensive."
-        projectDate="Conçu pour le 12/04/2020"
+        invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        projectDate="Livré le 12/04/2020"
         projectGrade="12"
         madeForWho='Semaine intensive'
         madeFor={[
@@ -34,9 +44,21 @@ function App() {
         bottomCard='Réalisé avec :'
         mates={[
           {
-            name: 'Je sais plus',
-            url: '',
-          }
+            name:'Pierre',
+            url:'https://github.com/Icezaucaramel'
+          },
+          {
+            name:'Philippe',
+            url:'https://github.com/Chompy0067'
+          },
+          {
+            name:'Sarah',
+            url:''
+          },
+          {
+            name:'Audrey',
+            url:''
+          },
         ]}
       />
       <Card 
@@ -47,7 +69,8 @@ function App() {
         phoneColor="redColor"
         computerColor="greenColor"
         cardDescription="Seul, réaliser un lanceur de dés (dice roller) en JS. Pouvoir lancer au minimum un dé. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
-        projectDate="Conçu pour le 12/04/2020"
+        invisible=""
+        projectDate="Livré le 12/04/2020"
         projectGrade="19.25"
         madeForWho='Fait pour :'
         madeFor={[
@@ -71,7 +94,8 @@ function App() {
         phoneColor="redColor"
         computerColor="greenColor"
         cardDescription="Création en groupe d'un jeu en JavaScript"
-        projectDate="Conçu pour le 24/04/2020"
+        invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
+        projectDate="Livré le 24/04/2020 (non abouti)"
         projectGrade="12"
         madeForWho='Semaine intensive'
         madeFor={[
@@ -107,7 +131,8 @@ function App() {
         phoneColor="greenColor"
         computerColor="greenColor"
         cardDescription="Seul, réaliser un Drum Pad en JS. Avoir plusieurs sons et les contrôler + animations. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
-        projectDate="Conçu pour le 12/05/2020"
+        invisible=""
+        projectDate="Livré le 12/05/2020"
         projectGrade="17"
         madeForWho='Fait pour :'
         madeFor={[
@@ -143,9 +168,10 @@ function App() {
         phoneColor="orangeColor"
         computerColor="greenColor"
         cardDescription="Création d'un site pour le magazine Savoir."
-        projectDate="Conçu pour le 19/05/2020"
+        invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
+        projectDate="Livré le 19/05/2020"
         projectGrade="17"
-        madeForWho='Projet de Culture Générale'
+        madeForWho='Projet Culture Générale'
         madeFor={[
           {
             name:'',
@@ -171,7 +197,7 @@ function App() {
         phoneColor="redColor"
         computerColor="greenColor"
         cardDescription="Seul, vous devez réaliser un Game Boy en HTML / CSS /JS. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
-        projectDate="Conçu pour le 15/06/2020"
+        projectDate="Livré le 15/06/2020"
         projectGrade="18"
         madeForWho='Fait pour :'
         madeFor={[
@@ -190,7 +216,7 @@ function App() {
       />
     </div>
     <Footer/>
-$  </div>
+  </div>
   );
 }
 
