@@ -3,7 +3,9 @@ import phone from './images/phone.svg'
 import computer from './images/computer.svg'
 
 function Card(props) {
-    const { title, projectImage, projectLink, mates, phoneColor, computerColor, cardDescription, projectDate, projectGrade, madeFor, bottomCard, madeForWho} = props;
+    const { 
+      title, projectImage, projectLink, mates, phoneColor, computerColor, cardDescription, projectDate, projectGrade, madeFor, bottomCard, madeForWho, invisible
+    } = props;
 
     return (
         <div class="cardContainer">
@@ -14,10 +16,10 @@ function Card(props) {
           <div className="cardTitle">
             <img className="responsivePhone" id={phoneColor} src={phone} alt="Phone responsive"></img>
             <img className="responsiveComputer" id={computerColor} src={computer} alt="Computer responsive"></img>
-            <a class="projectTitle" href="https://soliman-halaby.github.io/drumPad/">{title}</a>
+            <a class="projectTitle" href={projectLink} target="_blank">{title}</a>
           </div>
           <div className="cardDate">{projectDate}</div>
-          <div className="cardDescription">{cardDescription}</div>
+          <div className="cardDescription">{cardDescription}<span className="invisible">{invisible}</span></div>
           <div className="cardBottom">
             <div className="containerDetail">
               <div className="oneThird">
@@ -32,7 +34,7 @@ function Card(props) {
             </div>
             <div className="containerBottom">
                 <div className="madeWith">{bottomCard}</div>
-                {mates.map(mate => <a className="participant" target="_blank" href={mate.url}>{mate.name}</a>)}
+                {mates.map(mate => <a className="participant" target="_blank" href={mate.url} key={mate.name}>{mate.name}</a>)}
             </div>
           </div> 
         </div>   
