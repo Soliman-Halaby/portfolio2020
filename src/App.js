@@ -7,6 +7,7 @@ import project2 from './images/milleBoards.png'
 import project3 from './images/drumpad.png'
 import project4 from './images/savoirMag.png'
 import project5 from './images/gameBoy.png'
+import project6 from './images/tremplinDigital.png'
 import moonLight from './images/iconMoon.svg'
 import moonDark from './images/iconSunDark.svg'
 
@@ -23,18 +24,16 @@ function App() {
     <img className="pageTheme" src={isDarkMode ? moonDark: moonLight} alt="Moon Theme" onClick={handleDarkMode}></img>
     <h4 className="madeWithReact">Codé avec <a className="reactJS" href="https://fr.reactjs.org/">React JS</a></h4>
     <div className="gallerie">
-      <Card 
-        title="Oral B"
-        projectImage={project}
-        projectLink="https://soliman-halaby.github.io/oralB-io/"
-
-        phoneColor="orangeColor"
-        computerColor="orangeColor"
-        cardDescription="Refonte du site OralB iO en semaine intensive."
-        invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
-        projectDate="Livré le 12/04/2020"
-        projectGrade="12"
-        madeForWho='Semaine intensive'
+    <Card 
+        title="Tremplin Digital"
+        projectImage={project6}
+        projectLink="https://www.tremplindigital.com/"
+        phoneColor="greenColor"
+        computerColor="greenColor"
+        cardDescription="Refonte du site Tremplin Digital à l'aide de Wordpress et en utilisant le builder Divi."
+        projectDate="Livré le 31/07/2020"
+        projectGrade="Contract"
+        madeForWho='Refonte de site :'
         madeFor={[
           {
             name:'',
@@ -44,34 +43,21 @@ function App() {
         bottomCard='Réalisé avec :'
         mates={[
           {
-            name:'Pierre',
-            url:'https://github.com/Icezaucaramel'
-          },
-          {
-            name:'Philippe',
-            url:'https://github.com/Chompy0067'
-          },
-          {
-            name:'Sarah',
-            url:''
-          },
-          {
-            name:'Audrey',
-            url:''
+            name:'Alexandra',
+            url:'https://github.com/alexandrabernard'
           },
         ]}
       />
-      <Card 
-        title="Dice Roller"
-        projectImage={project1}
-        projectLink="https://soliman-halaby.github.io/diceRoller/"
-
+    <Card 
+        title="Game Boy"
+        projectImage={project5}
+        projectLink="https://soliman-halaby.github.io/gameBoy/"
         phoneColor="redColor"
         computerColor="greenColor"
-        cardDescription="Seul, réaliser un lanceur de dés (dice roller) en JS. Pouvoir lancer au minimum un dé. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
-        invisible=""
-        projectDate="Livré le 12/04/2020"
-        projectGrade="19.25"
+        cardDescription="Seul, vous devez réaliser un Game Boy en HTML / CSS /JS. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
+        projectDate="Livré le 15/06/2020"
+        gradeProject = 'Note : '
+        projectGrade="18"
         madeForWho='Fait pour :'
         madeFor={[
           {
@@ -82,45 +68,8 @@ function App() {
         bottomCard=''
         mates={[
           {
-            name: '',
-            url: '',
-          }
-        ]}
-      />
-      <Card 
-        title="Mille Boards"
-        projectImage={project2}
-        projectLink="https://robinb-dev.github.io/milleBoards/"
-        phoneColor="redColor"
-        computerColor="greenColor"
-        cardDescription="Création en groupe d'un jeu en JavaScript"
-        invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
-        projectDate="Livré le 24/04/2020 (non abouti)"
-        projectGrade="12"
-        madeForWho='Semaine intensive'
-        madeFor={[
-          {
             name:'',
             url:''
-          }
-        ]}
-        bottomCard='Réalisé avec :'
-        mates={[
-          {
-            name:'Robin',
-            url:'https://github.com/RobinB-dev'
-          },
-          {
-            name:'Alexandra',
-            url:'https://github.com/alexandrabernard'
-          },
-          {
-            name:'Paul',
-            url:'https://github.com/Umb3rs'
-          },
-          {
-            name:'Philippe',
-            url:'https://github.com/Chompy0067'
           },
         ]}
       />
@@ -133,6 +82,7 @@ function App() {
         cardDescription="Seul, réaliser un Drum Pad en JS. Avoir plusieurs sons et les contrôler + animations. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
         invisible=""
         projectDate="Livré le 12/05/2020"
+        gradeProject = 'Note : '
         projectGrade="17"
         madeForWho='Fait pour :'
         madeFor={[
@@ -170,6 +120,7 @@ function App() {
         cardDescription="Création d'un site pour le magazine Savoir."
         invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
         projectDate="Livré le 19/05/2020"
+        gradeProject = 'Note : '
         projectGrade="17"
         madeForWho='Projet Culture Générale'
         madeFor={[
@@ -191,14 +142,55 @@ function App() {
         ]}
       />
       <Card 
-        title="Game Boy"
-        projectImage={project5}
-        projectLink="https://soliman-halaby.github.io/gameBoy/"
+        title="Mille Boards"
+        projectImage={project2}
+        projectLink="https://robinb-dev.github.io/milleBoards/"
         phoneColor="redColor"
         computerColor="greenColor"
-        cardDescription="Seul, vous devez réaliser un Game Boy en HTML / CSS /JS. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
-        projectDate="Livré le 15/06/2020"
-        projectGrade="18"
+        cardDescription="Création en groupe d'un jeu en JavaScript."
+        invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
+        projectDate="Livré le 24/04/2020 (non abouti)"
+        gradeProject = 'Note :'
+        projectGrade="12"
+        madeForWho='Semaine intensive'
+        madeFor={[
+          {
+            name:'',
+            url:''
+          }
+        ]}
+        bottomCard='Réalisé avec :'
+        mates={[
+          {
+            name:'Robin',
+            url:'https://github.com/RobinB-dev'
+          },
+          {
+            name:'Alexandra',
+            url:'https://github.com/alexandrabernard'
+          },
+          {
+            name:'Paul',
+            url:'https://github.com/Umb3rs'
+          },
+          {
+            name:'Philippe',
+            url:'https://github.com/Chompy0067'
+          },
+        ]}
+      />
+      <Card 
+        title="Dice Roller"
+        projectImage={project1}
+        projectLink="https://soliman-halaby.github.io/diceRoller/"
+
+        phoneColor="redColor"
+        computerColor="greenColor"
+        cardDescription="Seul, réaliser un lanceur de dés (dice roller) en JS. Pouvoir lancer au minimum un dé. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
+        invisible=""
+        projectDate="Livré le 12/04/2020"
+        gradeProject = 'Note :'
+        projectGrade="19.25"
         madeForWho='Fait pour :'
         madeFor={[
           {
@@ -209,7 +201,46 @@ function App() {
         bottomCard=''
         mates={[
           {
+            name: '',
+            url: '',
+          }
+        ]}
+      />
+      <Card 
+        title="Oral B"
+        projectImage={project}
+        projectLink="https://soliman-halaby.github.io/oralB-io/"
+
+        phoneColor="orangeColor"
+        computerColor="orangeColor"
+        cardDescription="Refonte du site OralB iO en semaine intensive."
+        invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
+        projectDate="Livré le 12/04/2020"
+        gradeProject = 'Note :'
+        projectGrade="12"
+        madeForWho='Semaine intensive'
+        madeFor={[
+          {
             name:'',
+            url:''
+          }
+        ]}
+        bottomCard='Réalisé avec :'
+        mates={[
+          {
+            name:'Pierre',
+            url:'https://github.com/Icezaucaramel'
+          },
+          {
+            name:'Philippe',
+            url:'https://github.com/Chompy0067'
+          },
+          {
+            name:'Sarah',
+            url:''
+          },
+          {
+            name:'Audrey',
             url:''
           },
         ]}
