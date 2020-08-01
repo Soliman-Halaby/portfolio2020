@@ -4,7 +4,7 @@ import computer from './images/computer.svg'
 
 function Card(props) {
     const { 
-      title, projectImage, projectLink, mates, phoneColor, computerColor, cardDescription, projectDate, projectGrade, madeFor, bottomCard, madeForWho, invisible
+      title, projectImage, projectLink, mates, phoneColor, computerColor, cardDescription, projectDate, projectGrade, madeFor, bottomCard, madeForWho, invisible, gradeProject
     } = props;
 
     return (
@@ -23,7 +23,7 @@ function Card(props) {
           <div className="cardBottom">
             <div className="containerDetail">
               <div className="oneThird">
-                <div className="cardGrade">Note : <span class="grade">{projectGrade}</span></div>
+                <div className="cardGrade">{gradeProject}<span class="grade">{projectGrade}</span></div>
               </div>
               <div className="twoThird">
                 <div className="madeFor">
