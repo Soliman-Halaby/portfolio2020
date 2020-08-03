@@ -20,9 +20,9 @@ function App() {
 
   return (
   <div className="pageContainer" data-theme={isDarkMode ? "dark": "light"}>
-    {/* <h1 className="pageTitle">Mon Portfolio</h1>
+    <h1 className="pageTitle">Mon Portfolio</h1>
     <img className="pageTheme" src={isDarkMode ? moonDark: moonLight} alt="Moon Theme" onClick={handleDarkMode}></img>
-    <h4 className="madeWithReact">Codé avec <a className="reactJS" href="https://fr.reactjs.org/">React JS</a></h4> */}
+    <h4 className="madeWithReact">Codé avec <a className="reactJS" href="https://fr.reactjs.org/">React JS</a></h4>
     <div className="gallerie">
     <Card 
         title="Tremplin Digital"
