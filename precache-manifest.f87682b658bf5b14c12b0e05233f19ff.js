@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11fab4b1dcc19d1f99ceeda7268cd8d9",
+    "revision": "a7c6f0de8b4598a15c3c9d35e9790f6b",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "71e78aaa28c5c7df79fc",
+    "revision": "f0227bb66ddf6c0197b9",
     "url": "/portfolio/static/css/main.2325a5bc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.2345e3c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "71e78aaa28c5c7df79fc",
-    "url": "/portfolio/static/js/main.9af25653.chunk.js"
+    "revision": "f0227bb66ddf6c0197b9",
+    "url": "/portfolio/static/js/main.b52b53d9.chunk.js"
   },
   {
     "revision": "f73cb6802a5442b1ce5a",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/gameBoy.79ddd4cf.png"
   },
   {
-    "revision": "182ae735d3bdf87aa9e48d7f52a442f4",
-    "url": "/portfolio/static/media/iconMoon.182ae735.svg"
+    "revision": "b00901a572f8f7034c8050cf6d161fb8",
+    "url": "/portfolio/static/media/iconMoon.b00901a5.svg"
   },
   {
     "revision": "50e25aba07f73c3c8c0904a1e96ce3d7",
