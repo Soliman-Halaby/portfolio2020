@@ -7,7 +7,7 @@ import project2 from "./images/milleBoards.png";
 import project3 from "./images/drumpad.png";
 import project4 from "./images/savoirMag.png";
 import project5 from "./images/gameBoy.png";
-import project6 from "./images/tremplinDigital.png";
+import project6 from "./images/unTronePoursuivi.png";
 import moonLight from "./images/iconMoon.svg";
 import moonDark from "./images/iconSunDark.svg";
 
@@ -35,26 +35,30 @@ function App() {
       </h4>
       <div className="gallerie">
         <Card
-          title="Tremplin Digital"
+          title="Un trone poursuivi"
           projectImage={project6}
-          projectLink="https://www.tremplindigital.com/"
-          phoneColor="greenColor"
+          projectLink="https://github.com/Soliman-Halaby/Un-trone-poursuivi"
+          phoneColor="redColor"
           computerColor="greenColor"
-          cardDescription="Refonte du site Tremplin Digital à l'aide de Wordpress et en utilisant le builder Divi."
-          projectDate="Livré le 31/07/2020"
-          projectGrade="Contract"
-          madeForWho="Refonte de site :"
+          cardDescription="Mise en place d'un jeu avec une interface graphique en Python en utilisant la librairie pycharm. Plusieurs options disponibles (inventaire, niveaux)"
+          projectDate="Livré le 30/01/2021"
+          projectGrade="Projet"
+          madeForWho="Fait pour :"
           madeFor={[
             {
-              name: "",
-              url: "",
+              name: "Loïc Janin",
+              url: "https://www.linkedin.com/in/lo%C3%AFc-janin-827b4391/",
             },
           ]}
           bottomCard="Réalisé avec :"
           mates={[
             {
               name: "Alexandra",
-              url: "https://github.com/alexandrabernard",
+              url: "https://www.linkedin.com/in/alexandrabernard/",
+            },
+            {
+              name: "Inès",
+              url: "https://www.linkedin.com/in/in%C3%A8s-richard-60b775194/",
             },
           ]}
         />
@@ -128,7 +132,7 @@ function App() {
           phoneColor="orangeColor"
           computerColor="greenColor"
           cardDescription="Création d'un site pour le magazine Savoir."
-          invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
+          invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum  Lorem Ipsum"
           projectDate="Livré le 19/05/2020"
           gradeProject="Note : "
           projectGrade="17"
