@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04b7f8bb4d0681ca246ca1efa3663ee1",
+    "revision": "6a0b0e6b9e6a24187f13394da10d135e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2ddfc2e9e117a61123db",
-    "url": "/portfolio/static/css/main.85058492.chunk.css"
+    "revision": "c263043dc763b91040ec",
+    "url": "/portfolio/static/css/main.9fe4b796.chunk.css"
   },
   {
     "revision": "2a457014b2b79c2a649e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.2345e3c9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ddfc2e9e117a61123db",
-    "url": "/portfolio/static/js/main.8c76d60a.chunk.js"
+    "revision": "c263043dc763b91040ec",
+    "url": "/portfolio/static/js/main.3886284a.chunk.js"
   },
   {
     "revision": "f73cb6802a5442b1ce5a",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/gameBoy.79ddd4cf.png"
   },
   {
-    "revision": "b00901a572f8f7034c8050cf6d161fb8",
-    "url": "/portfolio/static/media/iconMoon.b00901a5.svg"
+    "revision": "182ae735d3bdf87aa9e48d7f52a442f4",
+    "url": "/portfolio/static/media/iconMoon.182ae735.svg"
   },
   {
     "revision": "50e25aba07f73c3c8c0904a1e96ce3d7",
@@ -68,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/savoirMag.20de1326.png"
   },
   {
-    "revision": "1b274dd8269e2e80b38ea0eaf2fd42cc",
-    "url": "/portfolio/static/media/tremplinDigital.1b274dd8.png"
+    "revision": "3edde32e5d7f94d176c5d6342c081378",
+    "url": "/portfolio/static/media/unTronePoursuivi.3edde32e.png"
   }
 ]);

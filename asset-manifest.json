@@ -1,34 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.85058492.chunk.css",
-    "main.js": "/portfolio/static/js/main.8c76d60a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8c76d60a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9fe4b796.chunk.css",
+    "main.js": "/portfolio/static/js/main.3886284a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3886284a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.7dc54a26.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.7dc54a26.js.map",
     "static/js/2.2345e3c9.chunk.js": "/portfolio/static/js/2.2345e3c9.chunk.js",
     "static/js/2.2345e3c9.chunk.js.map": "/portfolio/static/js/2.2345e3c9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.98fa8c9ad27ead80a7b9f893bd9b5553.js": "/portfolio/precache-manifest.98fa8c9ad27ead80a7b9f893bd9b5553.js",
+    "precache-manifest.d0b58b21f58606769b0428dde1e7ff82.js": "/portfolio/precache-manifest.d0b58b21f58606769b0428dde1e7ff82.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.85058492.chunk.css.map": "/portfolio/static/css/main.85058492.chunk.css.map",
+    "static/css/main.9fe4b796.chunk.css.map": "/portfolio/static/css/main.9fe4b796.chunk.css.map",
     "static/js/2.2345e3c9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2345e3c9.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/portfolio/static/media/CV_Soliman_Al_Halaby.b2e49dce.pdf",
     "static/media/computer.svg": "/portfolio/static/media/computer.9739f922.svg",
     "static/media/diceRoller.png": "/portfolio/static/media/diceRoller.afea9081.png",
     "static/media/drumpad.png": "/portfolio/static/media/drumpad.10b94d27.png",
     "static/media/gameBoy.png": "/portfolio/static/media/gameBoy.79ddd4cf.png",
-    "static/media/iconMoon.svg": "/portfolio/static/media/iconMoon.b00901a5.svg",
+    "static/media/iconMoon.svg": "/portfolio/static/media/iconMoon.182ae735.svg",
     "static/media/iconSunDark.svg": "/portfolio/static/media/iconSunDark.50e25aba.svg",
     "static/media/milleBoards.png": "/portfolio/static/media/milleBoards.610398f4.png",
     "static/media/oralB.png": "/portfolio/static/media/oralB.3e05145d.png",
     "static/media/phone.svg": "/portfolio/static/media/phone.9ffa0ba9.svg",
     "static/media/savoirMag.png": "/portfolio/static/media/savoirMag.20de1326.png",
-    "static/media/tremplinDigital.png": "/portfolio/static/media/tremplinDigital.1b274dd8.png"
+    "static/media/unTronePoursuivi.png": "/portfolio/static/media/unTronePoursuivi.3edde32e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7dc54a26.js",
     "static/js/2.2345e3c9.chunk.js",
-    "static/css/main.85058492.chunk.css",
-    "static/js/main.8c76d60a.chunk.js"
+    "static/css/main.9fe4b796.chunk.css",
+    "static/js/main.3886284a.chunk.js"
   ]
 }
