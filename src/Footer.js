@@ -8,6 +8,7 @@ function Footer() {
         Réalisé par
         <a
           className="cv"
+          rel="noopener noreferrer"
           href="https://github.com/Soliman-Halaby"
           target="_blank"
         >
@@ -16,7 +17,7 @@ function Footer() {
       </div>
       <div className="download">
         Télécharger
-        <a className="cv" href={cv} target="_blank">
+        <a className="cv" rel="noopener noreferrer" href={cv} target="_blank">
           mon CV
         </a>
       </div>
