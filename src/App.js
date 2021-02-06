@@ -111,18 +111,6 @@ function App() {
               name: "",
               url: "",
             },
-            {
-              name: "",
-              url: "",
-            },
-            {
-              name: "",
-              url: "",
-            },
-            {
-              name: "",
-              url: "",
-            },
           ]}
         />
         <Card

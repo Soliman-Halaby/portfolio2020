@@ -21,9 +21,9 @@ function Card(props) {
   } = props;
 
   return (
-    <div class="cardContainer">
+    <div className="cardContainer">
       <div className="card">
-        <a class="projectLink" href={projectLink} target="_blank">
+        <a className="projectLink" rel="noopener noreferrer" href={projectLink} target="_blank">
           <img
             className="projectImg"
             src={projectImage}
@@ -43,7 +43,7 @@ function Card(props) {
             src={computer}
             alt="Computer responsive"
           ></img>
-          <a class="projectTitle" href={projectLink} target="_blank">
+          <a className="projectTitle" rel="noopener noreferrer" href={projectLink} target="_blank">
             {title}
           </a>
         </div>
@@ -57,14 +57,14 @@ function Card(props) {
             <div className="oneThird">
               <div className="cardGrade">
                 {gradeProject}
-                <span class="grade">{projectGrade}</span>
+                <span className="grade">{projectGrade}</span>
               </div>
             </div>
             <div className="twoThird">
               <div className="madeFor">
                 {madeForWho}
                 {madeFor.map((madeFor) => (
-                  <a className="name" href={madeFor.url} target="_blank">
+                  <a className="name" rel="noopener noreferrer" href={madeFor.url} target="_blank">
                     {madeFor.name}
                   </a>
                 ))}
@@ -77,6 +77,7 @@ function Card(props) {
               <a
                 className="participant"
                 target="_blank"
+                rel="noopener noreferrer"
                 href={mate.url}
                 key={mate.name}
               >
