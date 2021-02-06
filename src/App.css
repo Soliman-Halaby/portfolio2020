@@ -250,7 +250,7 @@
 }
 
 .participant{
-	margin-left: 20px;
+	margin: 0 10px;
 	text-decoration: none;
 	color: var(--darkGrey);
 	font-weight: 600;

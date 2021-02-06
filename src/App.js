@@ -35,12 +35,12 @@ function App() {
       </h4>
       <div className="gallerie">
         <Card
-          title="Un trone poursuivi"
+          title="Trone poursuivi"
           projectImage={project6}
           projectLink="https://github.com/Soliman-Halaby/Un-trone-poursuivi"
           phoneColor="redColor"
           computerColor="greenColor"
-          cardDescription="Mise en place d'un jeu avec une interface graphique en Python en utilisant la librairie pycharm. Plusieurs options disponibles (inventaire, niveaux)"
+          cardDescription="Mise en place d'un jeu avec une interface graphique en Python en utilisant la librairie pycharm. Plusieurs options disponibles."
           projectDate="Livré le 30/01/2021"
           projectGrade="Projet"
           madeForWho="Fait pour :"
