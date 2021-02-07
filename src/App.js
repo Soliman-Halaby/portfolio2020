@@ -8,6 +8,7 @@ import project3 from "./images/drumpad.png";
 import project4 from "./images/savoirMag.png";
 import project5 from "./images/gameBoy.png";
 import project6 from "./images/unTronePoursuivi.png";
+import project7 from "./images/showroom.png"
 import moonLight from "./images/iconMoon.svg";
 import moonDark from "./images/iconSunDark.svg";
 
@@ -35,12 +36,36 @@ function App() {
       </h4>
       <div className="gallerie">
         <Card
+          title="Showroom D'Dalos"
+          projectImage={project7}
+          projectLink="https://showroom.ddalos.com/"
+          phoneColor="redColor"
+          computerColor="greenColor"
+          cardDescription="Nous avons mis en ligne notre Showroom D'Dalos réalisé par Christophe sur Blender en utilisant la librairie Three JS."
+          projectDate="Livré le 05/02/2021"
+          projectGrade="Projet"
+          madeForWho="Fait pour :"
+          madeFor={[
+            {
+              name: "Joël Bourienne",
+              url: "https://www.linkedin.com/in/jo%C3%ABl-bourienne-ab96037/",
+            },
+          ]}
+          bottomCard="Réalisé avec :"
+          mates={[
+            {
+              name: "Christophe",
+              url: "https://www.linkedin.com/in/christophe-francisco-a758061a9/",
+            },
+          ]}
+        />
+        <Card
           title="Trone poursuivi"
           projectImage={project6}
           projectLink="https://github.com/Soliman-Halaby/Un-trone-poursuivi"
           phoneColor="redColor"
           computerColor="greenColor"
-          cardDescription="Mise en place d'un jeu avec une interface graphique en Python en utilisant la librairie pycharm. Plusieurs options disponibles."
+          cardDescription="Mise en place d'un jeu avec une interface graphique en Python en utilisant la librairie pycharm. Plusieurs features disponibles."
           projectDate="Livré le 30/01/2021"
           projectGrade="Projet"
           madeForWho="Fait pour :"
