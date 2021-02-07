@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.98525889.chunk.css",
-    "main.js": "/static/js/main.f4caef6a.chunk.js",
-    "main.js.map": "/static/js/main.f4caef6a.chunk.js.map",
+    "main.css": "/static/css/main.bb0e4726.chunk.css",
+    "main.js": "/static/js/main.82e047a1.chunk.js",
+    "main.js.map": "/static/js/main.82e047a1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2be7f483.js",
     "runtime-main.js.map": "/static/js/runtime-main.2be7f483.js.map",
     "static/js/2.7b61f233.chunk.js": "/static/js/2.7b61f233.chunk.js",
     "static/js/2.7b61f233.chunk.js.map": "/static/js/2.7b61f233.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6cff8948d33d04c6481f3fa7b5ba17bc.js": "/precache-manifest.6cff8948d33d04c6481f3fa7b5ba17bc.js",
+    "precache-manifest.c762616ea1083c2f9113500eaf27abf9.js": "/precache-manifest.c762616ea1083c2f9113500eaf27abf9.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.98525889.chunk.css.map": "/static/css/main.98525889.chunk.css.map",
+    "static/css/main.bb0e4726.chunk.css.map": "/static/css/main.bb0e4726.chunk.css.map",
     "static/js/2.7b61f233.chunk.js.LICENSE.txt": "/static/js/2.7b61f233.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/static/media/CV_Soliman_Al_Halaby.e3072306.pdf",
-    "static/media/computer.svg": "/static/media/computer.9739f922.svg",
+    "static/media/computer.svg": "/static/media/computer.2cddf86f.svg",
     "static/media/diceRoller.png": "/static/media/diceRoller.afea9081.png",
     "static/media/drumpad.png": "/static/media/drumpad.10b94d27.png",
     "static/media/gameBoy.png": "/static/media/gameBoy.79ddd4cf.png",
@@ -21,7 +21,7 @@
     "static/media/iconSunDark.svg": "/static/media/iconSunDark.50e25aba.svg",
     "static/media/milleBoards.png": "/static/media/milleBoards.610398f4.png",
     "static/media/oralB.png": "/static/media/oralB.3e05145d.png",
-    "static/media/phone.svg": "/static/media/phone.99134daf.svg",
+    "static/media/phone.svg": "/static/media/phone.35c2ddd5.svg",
     "static/media/savoirMag.png": "/static/media/savoirMag.20de1326.png",
     "static/media/showroom.png": "/static/media/showroom.e5a539a7.png",
     "static/media/unTronePoursuivi.png": "/static/media/unTronePoursuivi.3edde32e.png"
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.2be7f483.js",
     "static/js/2.7b61f233.chunk.js",
-    "static/css/main.98525889.chunk.css",
-    "static/js/main.f4caef6a.chunk.js"
+    "static/css/main.bb0e4726.chunk.css",
+    "static/js/main.82e047a1.chunk.js"
   ]
 }
