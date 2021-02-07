@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.98525889.chunk.css",
-    "main.js": "/static/js/main.a0001357.chunk.js",
-    "main.js.map": "/static/js/main.a0001357.chunk.js.map",
+    "main.js": "/static/js/main.f4caef6a.chunk.js",
+    "main.js.map": "/static/js/main.f4caef6a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2be7f483.js",
     "runtime-main.js.map": "/static/js/runtime-main.2be7f483.js.map",
     "static/js/2.7b61f233.chunk.js": "/static/js/2.7b61f233.chunk.js",
     "static/js/2.7b61f233.chunk.js.map": "/static/js/2.7b61f233.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9c30120088fa057314f3f89ed2447caa.js": "/precache-manifest.9c30120088fa057314f3f89ed2447caa.js",
+    "precache-manifest.6cff8948d33d04c6481f3fa7b5ba17bc.js": "/precache-manifest.6cff8948d33d04c6481f3fa7b5ba17bc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.98525889.chunk.css.map": "/static/css/main.98525889.chunk.css.map",
     "static/js/2.7b61f233.chunk.js.LICENSE.txt": "/static/js/2.7b61f233.chunk.js.LICENSE.txt",
@@ -21,7 +21,7 @@
     "static/media/iconSunDark.svg": "/static/media/iconSunDark.50e25aba.svg",
     "static/media/milleBoards.png": "/static/media/milleBoards.610398f4.png",
     "static/media/oralB.png": "/static/media/oralB.3e05145d.png",
-    "static/media/phone.svg": "/static/media/phone.9ffa0ba9.svg",
+    "static/media/phone.svg": "/static/media/phone.99134daf.svg",
     "static/media/savoirMag.png": "/static/media/savoirMag.20de1326.png",
     "static/media/showroom.png": "/static/media/showroom.e5a539a7.png",
     "static/media/unTronePoursuivi.png": "/static/media/unTronePoursuivi.3edde32e.png"
@@ -30,6 +30,6 @@
     "static/js/runtime-main.2be7f483.js",
     "static/js/2.7b61f233.chunk.js",
     "static/css/main.98525889.chunk.css",
-    "static/js/main.a0001357.chunk.js"
+    "static/js/main.f4caef6a.chunk.js"
   ]
 }

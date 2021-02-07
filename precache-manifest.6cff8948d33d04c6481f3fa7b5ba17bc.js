@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fb96ada95ead764511bfa8c789d0fc4",
+    "revision": "133a86dc07cb36ec549b02b591024857",
     "url": "/index.html"
   },
   {
-    "revision": "f248d11171c276fa8b91",
+    "revision": "fdf7e4578793805e201f",
     "url": "/static/css/main.98525889.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.7b61f233.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f248d11171c276fa8b91",
-    "url": "/static/js/main.a0001357.chunk.js"
+    "revision": "fdf7e4578793805e201f",
+    "url": "/static/js/main.f4caef6a.chunk.js"
   },
   {
     "revision": "89fbb67437dabdd6325f",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/oralB.3e05145d.png"
   },
   {
-    "revision": "9ffa0ba974f7d2fef582c6f64dec94c2",
-    "url": "/static/media/phone.9ffa0ba9.svg"
+    "revision": "99134daf0e96159f49c38c2739d6fa38",
+    "url": "/static/media/phone.99134daf.svg"
   },
   {
     "revision": "20de1326d5a94d2195995a4ee161e544",
