@@ -93,6 +93,7 @@
 
 .pageTheme{
 	width: 50px;
+	height: 50px;
 	background: var(--lightWhite);
 	border-radius: 50%;
 	box-shadow: 0px 6px 20px -16px var(--black);
@@ -146,7 +147,9 @@
 }
 
 .responsivePhone{
-	width: 27px;
+	width: 30px;
+	height: 30px;
+	padding: 3px;
 	position: absolute;
 	left: 3px;
 	border-radius: 5px;
@@ -166,8 +169,9 @@
 }
 
 .responsiveComputer{
-	width: 27px;
-	height: 27px;
+	width: 30px;
+	height: 30px;
+	padding: 3px;
 	position: absolute;
 	left: 37px;
 	border-radius: 5px;
@@ -175,7 +179,7 @@
 }
 
  .cardTitle{
-	 font-size: 26px;
+	 font-size: 20px;
 	 color: var(--darkGrey);
 	 font-weight: 600;
 	 margin-bottom: 5px;
@@ -311,7 +315,7 @@
 @media (max-width: 450px){
 	.pageTheme{
 		width: 30px;
-		left: 6px;
+		left: 7px;
 		top: 8px;
 	}
 	.pageTitle{

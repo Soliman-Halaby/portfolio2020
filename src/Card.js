@@ -64,7 +64,7 @@ function Card(props) {
               <div className="madeFor">
                 {madeForWho}
                 {madeFor.map((madeFor) => (
-                  <a className="name" rel="noopener noreferrer" href={madeFor.url} target="_blank">
+                  <a key={madeFor.name} className="name" rel="noopener noreferrer" href={madeFor.url} target="_blank">
                     {madeFor.name}
                   </a>
                 ))}

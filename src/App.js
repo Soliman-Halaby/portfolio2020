@@ -25,7 +25,7 @@ function App() {
       <img
         className="pageTheme"
         src={isDarkMode ? moonDark : moonLight}
-        alt="Moon Theme"
+        alt="Theme Icon"
         onClick={handleDarkMode}
       ></img>
       <h4 className="madeWithReact">
@@ -177,7 +177,7 @@ function App() {
           cardDescription="Création en groupe d'un jeu en JavaScript."
           invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum "
           projectDate="Livré le 24/04/2020 (non abouti)"
-          gradeProject="Note :"
+          gradeProject="Note : "
           projectGrade="12"
           madeForWho="Semaine intensive"
           madeFor={[
@@ -215,7 +215,7 @@ function App() {
           cardDescription="Seul, réaliser un lanceur de dés (dice roller) en JS. Pouvoir lancer au minimum un dé. Noté sur l'aspect, le respect des consignes, les features, la qualité et téchnicité du code."
           invisible=""
           projectDate="Livré le 12/04/2020"
-          gradeProject="Note :"
+          gradeProject="Note : "
           projectGrade="19.25"
           madeForWho="Fait pour :"
           madeFor={[
@@ -241,7 +241,7 @@ function App() {
           cardDescription="Refonte du site OralB iO en semaine intensive."
           invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum"
           projectDate="Livré le 12/04/2020"
-          gradeProject="Note :"
+          gradeProject="Note : "
           projectGrade="12"
           madeForWho="Semaine intensive"
           madeFor={[
