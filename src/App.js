@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="pageContainer" data-theme={isDarkMode ? "dark" : "light"}>
-      <h1 className="pageTitle">Mon Portfolio</h1>
+      <h1 className="pageTitle">Soliman Al Halaby</h1>
       <img
         className="pageTheme"
         src={isDarkMode ? moonDark : moonLight}
