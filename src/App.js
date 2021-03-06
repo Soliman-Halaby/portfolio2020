@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 import Footer from "./components/Footer/Footer";
 import Card from "./components/Card/Card";
@@ -24,20 +24,21 @@ import "./components/Footer/Footer.css"
 import "./components/Cursor/Cursor.css"
 function App() {
   const [isDarkMode, setDarkMode] = useState(false);
+  const cursorRef = useRef();
   const handleDarkMode = () => {
     setDarkMode(!isDarkMode);
   };
 
-  window.addEventListener('mousemove', onMouseMove)
   function onMouseMove(e) {
-    const cursor = document.querySelector(".cursor")
+    const cursor = cursorRef.current;
+    if (!cursor) return;
     cursor.style.left = `${e.clientX}px`
     cursor.style.top = `${e.clientY}px`
   }
 
   return (
-    <div className="pageContainer" data-theme={isDarkMode ? "dark" : "light"}>
-      <Cursor />
+    <div onMouseMove={onMouseMove} className="pageContainer" data-theme={isDarkMode ? "dark" : "light"}>
+      <div className="cursor" ref={cursorRef}></div>
       <nav className="langSelector">
         <ul className="selectLang">
           <li className="currentLang lang">
