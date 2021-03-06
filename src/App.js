@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-import Footer from "./Footer";
-import Card from "./Card";
+
+import Footer from "./components/Footer/Footer";
+import Card from "./components/Card/Card";
+import Cursor from "./components/Cursor/Cursor"
+
 import project from "./images/oralB.png";
 import project1 from "./images/diceRoller.png";
 import project2 from "./images/milleBoards.png";
@@ -9,18 +12,42 @@ import project4 from "./images/savoirMag.png";
 import project5 from "./images/gameBoy.png";
 import project6 from "./images/unTronePoursuivi.png";
 import project7 from "./images/showroom.png"
+import project8 from "./images/gourmandine.png"
+import project9 from "./images/invioBTP.png"
+
 import moonLight from "./images/iconMoon.svg";
 import moonDark from "./images/iconSunDark.svg";
 
 import "./App.css";
+import "./components/Card/Card.css"
+import "./components/Footer/Footer.css"
+import "./components/Cursor/Cursor.css"
 function App() {
   const [isDarkMode, setDarkMode] = useState(false);
   const handleDarkMode = () => {
     setDarkMode(!isDarkMode);
   };
 
+  window.addEventListener('mousemove', onMouseMove)
+  function onMouseMove(e) {
+    const cursor = document.querySelector(".cursor")
+    cursor.style.left = `${e.clientX}px`
+    cursor.style.top = `${e.clientY}px`
+  }
+
   return (
     <div className="pageContainer" data-theme={isDarkMode ? "dark" : "light"}>
+      <Cursor />
+      <nav className="langSelector">
+        <ul className="selectLang">
+          <li className="currentLang lang">
+            <a href="" title="Visiter le site français">FR</a>
+          </li>
+          <li className="lang otherLang">
+            <a href="" title="Visit English version" >EN</a>
+          </li>
+        </ul>
+      </nav>
       <h1 className="pageTitle">Soliman Al Halaby</h1>
       <img
         className="pageTheme"
@@ -29,7 +56,7 @@ function App() {
         onClick={handleDarkMode}
       ></img>
       <h4 className="madeWithReact">
-        Codé avec{" "}
+        Codé avec
         <a className="reactJS" href="https://fr.reactjs.org/">
           React JS
         </a>
@@ -60,14 +87,65 @@ function App() {
           ]}
         />
         <Card
-          title="Trone poursuivi"
+          title="Invio BTP"
+          projectImage={project9}
+          projectLink="https://www.invio-batiment.fr/"
+          phoneColor="greenColor"
+          computerColor="greenColor"
+          cardDescription="Design et création du site Invio BTP en utilisant WordPress."
+          projectDate="Livré le 01/02/2021"
+          projectGrade="WordPress"
+          madeForWho="Contrat"
+          madeFor={[
+            {
+              name: "",
+              url: "",
+            },
+          ]}
+          invisible="Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum  "
+          bottomCard="Réalisé avec :"
+          mates={[
+            {
+              name: "Alexandra",
+              url: "https://www.linkedin.com/in/alexandrabernard/",
+            },
+          ]}
+        />
+        <Card
+          title="Gourmandine"
+          projectImage={project8}
+          projectLink="https://gourmandine-herblay.fr/"
+          phoneColor="greenColor"
+          computerColor="greenColor"
+          cardDescription="Design et création du site Gourmandine Chocolatier en utilisant WordPress et intégration WooCommerce."
+          projectDate="Livré le 01/02/2021"
+          projectGrade="WordPress"
+          madeForWho="Contrat"
+          madeFor={[
+            {
+              name: "",
+              url: "",
+            },
+          ]}
+          invisible="Lorem Ipsum Lorem Ipsum  "
+          bottomCard="Réalisé avec :"
+          mates={[
+            {
+              name: "Alexandra",
+              url: "https://www.linkedin.com/in/alexandrabernard/",
+            },
+          ]}
+        />
+        <Card
+          title="Un Trone poursuivi"
           projectImage={project6}
           projectLink="https://github.com/Soliman-Halaby/Un-trone-poursuivi"
           phoneColor="redColor"
           computerColor="greenColor"
           cardDescription="Mise en place d'un jeu avec une interface graphique en Python en utilisant la librairie pycharm. Plusieurs features disponibles."
           projectDate="Livré le 30/01/2021"
-          projectGrade="Projet"
+          gradeProject="Note : "
+          projectGrade="17"
           madeForWho="Fait pour :"
           madeFor={[
             {

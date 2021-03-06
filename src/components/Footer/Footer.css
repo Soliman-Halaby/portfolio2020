@@ -1,0 +1,21 @@
+.footer{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-size: 100%;
+	padding-bottom: 30px;;
+	flex-direction: column;
+}
+
+.cv{
+	text-decoration: none;
+	margin-left: 5px;
+	color: var(--black);
+	font-weight: 500;
+}
+
+.download{
+	color: var(--middleGrey);
+	display: flex;
+	justify-content: center;
+}
