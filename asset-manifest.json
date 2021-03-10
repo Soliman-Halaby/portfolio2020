@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.56a9fcd8.chunk.css",
+    "main.css": "/static/css/main.1630b008.chunk.css",
     "main.js": "/static/js/main.6c03e2bb.chunk.js",
     "main.js.map": "/static/js/main.6c03e2bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2be7f483.js",
@@ -8,9 +8,9 @@
     "static/js/2.d29e8db2.chunk.js": "/static/js/2.d29e8db2.chunk.js",
     "static/js/2.d29e8db2.chunk.js.map": "/static/js/2.d29e8db2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b89cf7b05289a3c21fc96b78956f700b.js": "/precache-manifest.b89cf7b05289a3c21fc96b78956f700b.js",
+    "precache-manifest.00869f2ec6a55166adc92392add3dcb5.js": "/precache-manifest.00869f2ec6a55166adc92392add3dcb5.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.56a9fcd8.chunk.css.map": "/static/css/main.56a9fcd8.chunk.css.map",
+    "static/css/main.1630b008.chunk.css.map": "/static/css/main.1630b008.chunk.css.map",
     "static/js/2.d29e8db2.chunk.js.LICENSE.txt": "/static/js/2.d29e8db2.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/static/media/CV_Soliman_Al_Halaby.fae2a70c.pdf",
     "static/media/computer.svg": "/static/media/computer.2cddf86f.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.2be7f483.js",
     "static/js/2.d29e8db2.chunk.js",
-    "static/css/main.56a9fcd8.chunk.css",
+    "static/css/main.1630b008.chunk.css",
     "static/js/main.6c03e2bb.chunk.js"
   ]
 }
