@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.c68f3c9a.chunk.css",
-    "main.js": "/static/js/main.17924c7c.chunk.js",
-    "main.js.map": "/static/js/main.17924c7c.chunk.js.map",
+    "main.js": "/static/js/main.98c4cbfa.chunk.js",
+    "main.js.map": "/static/js/main.98c4cbfa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2be7f483.js",
     "runtime-main.js.map": "/static/js/runtime-main.2be7f483.js.map",
-    "static/js/2.7b61f233.chunk.js": "/static/js/2.7b61f233.chunk.js",
-    "static/js/2.7b61f233.chunk.js.map": "/static/js/2.7b61f233.chunk.js.map",
+    "static/js/2.f091e21e.chunk.js": "/static/js/2.f091e21e.chunk.js",
+    "static/js/2.f091e21e.chunk.js.map": "/static/js/2.f091e21e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2ae62f84439ee901cd36a919522648b5.js": "/precache-manifest.2ae62f84439ee901cd36a919522648b5.js",
+    "precache-manifest.6af1c4f300122ef953ff9accbb497ed2.js": "/precache-manifest.6af1c4f300122ef953ff9accbb497ed2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.c68f3c9a.chunk.css.map": "/static/css/main.c68f3c9a.chunk.css.map",
-    "static/js/2.7b61f233.chunk.js.LICENSE.txt": "/static/js/2.7b61f233.chunk.js.LICENSE.txt",
+    "static/js/2.f091e21e.chunk.js.LICENSE.txt": "/static/js/2.f091e21e.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/static/media/CV_Soliman_Al_Halaby.fae2a70c.pdf",
     "static/media/canLinkMe.png": "/static/media/canLinkMe.c97b160d.png",
     "static/media/computer.svg": "/static/media/computer.2cddf86f.svg",
@@ -21,6 +21,7 @@
     "static/media/iconMoon.svg": "/static/media/iconMoon.2afc1c11.svg",
     "static/media/iconSunDark.svg": "/static/media/iconSunDark.3b650715.svg",
     "static/media/milleBoards.png": "/static/media/milleBoards.610398f4.png",
+    "static/media/movieReactOne.png": "/static/media/movieReactOne.d457286b.png",
     "static/media/oralB.png": "/static/media/oralB.3e05145d.png",
     "static/media/phone.svg": "/static/media/phone.35c2ddd5.svg",
     "static/media/savoirMag.png": "/static/media/savoirMag.20de1326.png",
@@ -29,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2be7f483.js",
-    "static/js/2.7b61f233.chunk.js",
+    "static/js/2.f091e21e.chunk.js",
     "static/css/main.c68f3c9a.chunk.css",
-    "static/js/main.17924c7c.chunk.js"
+    "static/js/main.98c4cbfa.chunk.js"
   ]
 }
