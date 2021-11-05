@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.708dfbf2.chunk.css",
-    "main.js": "/static/js/main.70a44b21.chunk.js",
-    "main.js.map": "/static/js/main.70a44b21.chunk.js.map",
+    "main.js": "/static/js/main.3b8f2c88.chunk.js",
+    "main.js.map": "/static/js/main.3b8f2c88.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.ae6f4825.chunk.js": "/static/js/2.ae6f4825.chunk.js",
-    "static/js/2.ae6f4825.chunk.js.map": "/static/js/2.ae6f4825.chunk.js.map",
+    "static/js/2.23b93bc1.chunk.js": "/static/js/2.23b93bc1.chunk.js",
+    "static/js/2.23b93bc1.chunk.js.map": "/static/js/2.23b93bc1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ee18dd11a4016d5692da5730bd11e8ab.js": "/precache-manifest.ee18dd11a4016d5692da5730bd11e8ab.js",
+    "precache-manifest.9c79de383a9e5d6bc60b0ca1462df165.js": "/precache-manifest.9c79de383a9e5d6bc60b0ca1462df165.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.708dfbf2.chunk.css.map": "/static/css/main.708dfbf2.chunk.css.map",
-    "static/js/2.ae6f4825.chunk.js.LICENSE.txt": "/static/js/2.ae6f4825.chunk.js.LICENSE.txt",
+    "static/js/2.23b93bc1.chunk.js.LICENSE.txt": "/static/js/2.23b93bc1.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/static/media/CV_Soliman_Al_Halaby.fae2a70c.pdf",
     "static/media/agoraMuseum.png": "/static/media/agoraMuseum.59ef3931.png",
     "static/media/canLinkMe.png": "/static/media/canLinkMe.c97b160d.png",
     "static/media/computer.svg": "/static/media/computer.2cddf86f.svg",
     "static/media/diceRoller.png": "/static/media/diceRoller.e15f6ba4.png",
     "static/media/drumpad.png": "/static/media/drumpad.10b94d27.png",
+    "static/media/eclipse.png": "/static/media/eclipse.fd82f1bb.png",
     "static/media/gameBoy.png": "/static/media/gameBoy.79ddd4cf.png",
     "static/media/iconMoon.svg": "/static/media/iconMoon.2afc1c11.svg",
     "static/media/iconSunDark.svg": "/static/media/iconSunDark.3b650715.svg",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.ae6f4825.chunk.js",
+    "static/js/2.23b93bc1.chunk.js",
     "static/css/main.708dfbf2.chunk.css",
-    "static/js/main.70a44b21.chunk.js"
+    "static/js/main.3b8f2c88.chunk.js"
   ]
 }
