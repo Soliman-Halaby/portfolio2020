@@ -1,7 +1,5 @@
 .cursor{
     z-index: 200;
-    top: 0px;
-    left: 0px;
     pointer-events: none;
     position: fixed;
     display: block;
@@ -11,4 +9,40 @@
     mix-blend-mode: difference;
     border-radius: 50%;
     transition: all 0.1s linear;
+}
+
+.cursor_interior{
+    z-index: 200;
+    /* display: block; */
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    border-radius: 50%;
+}
+
+/* .cursor_interior{
+    z-index: 200;
+    display: block;
+    position: fixed;
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    border-radius: 50%;
+    top: -30px;
+    left: -30px;
+} */
+
+@media (max-width: 450px){
+    .cursor{
+        display: none;
+    }
+    
+    .cursor_interior{
+        display: none;
+    }
 }

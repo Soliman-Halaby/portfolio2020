@@ -16,7 +16,23 @@
 	border-radius: 10px;
 	transition: transform 0.5s;
 	user-select: none;
+	object-fit: cover;
 	height: 50%;
+}
+
+.videoPlayer{
+	margin-top: 3px;
+	margin-bottom: 7px;
+	width: 96%;
+	border-radius: 10px;
+	transition: transform 0.5s;
+	user-select: none;
+	height: auto;
+}
+
+.videoPlayer:hover{
+	transform: scale(1.02);
+	transition: transform 0.5s;
 }
 
 .projectTitle{
@@ -160,4 +176,11 @@
 	border-bottom-left-radius: 14px;
 	border-bottom-right-radius: 14px;
 	
+}
+
+@media (max-width: 750px){
+    .videoPlayer{
+		margin-top: 15px;
+		margin-bottom: 15px;
+    }
 }
