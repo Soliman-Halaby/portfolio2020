@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d04acefb38f2edd840def9145e483f9a",
+    "revision": "c3a47e6347b483da0a74da210045fbc2",
     "url": "/index.html"
   },
   {
-    "revision": "545f9d494f3903108f4e",
+    "revision": "4c2a029bcb217bc68239",
     "url": "/static/css/main.708dfbf2.chunk.css"
   },
   {
-    "revision": "2cada774224e94867703",
-    "url": "/static/js/2.23b93bc1.chunk.js"
+    "revision": "384aa153fdf8c45d87bc",
+    "url": "/static/js/2.a9d00b70.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/static/js/2.23b93bc1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a9d00b70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "545f9d494f3903108f4e",
-    "url": "/static/js/main.f4816fa0.chunk.js"
+    "revision": "4c2a029bcb217bc68239",
+    "url": "/static/js/main.2d49ef10.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "20de1326d5a94d2195995a4ee161e544",
     "url": "/static/media/savoirMag.20de1326.png"
+  },
+  {
+    "revision": "5a0811613b9c8227320f429c3bc7f9a0",
+    "url": "/static/media/selfer.5a081161.png"
   },
   {
     "revision": "e5a539a7aeace23cde1775eef33d7561",

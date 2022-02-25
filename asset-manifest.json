@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.708dfbf2.chunk.css",
-    "main.js": "/static/js/main.f4816fa0.chunk.js",
-    "main.js.map": "/static/js/main.f4816fa0.chunk.js.map",
+    "main.js": "/static/js/main.2d49ef10.chunk.js",
+    "main.js.map": "/static/js/main.2d49ef10.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.23b93bc1.chunk.js": "/static/js/2.23b93bc1.chunk.js",
-    "static/js/2.23b93bc1.chunk.js.map": "/static/js/2.23b93bc1.chunk.js.map",
+    "static/js/2.a9d00b70.chunk.js": "/static/js/2.a9d00b70.chunk.js",
+    "static/js/2.a9d00b70.chunk.js.map": "/static/js/2.a9d00b70.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8263c8bdd14fffaeeb9f854361aa9e3e.js": "/precache-manifest.8263c8bdd14fffaeeb9f854361aa9e3e.js",
+    "precache-manifest.0abd82337d2903a744797b5681d78d90.js": "/precache-manifest.0abd82337d2903a744797b5681d78d90.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.708dfbf2.chunk.css.map": "/static/css/main.708dfbf2.chunk.css.map",
-    "static/js/2.23b93bc1.chunk.js.LICENSE.txt": "/static/js/2.23b93bc1.chunk.js.LICENSE.txt",
+    "static/js/2.a9d00b70.chunk.js.LICENSE.txt": "/static/js/2.a9d00b70.chunk.js.LICENSE.txt",
     "static/media/CV_Soliman_Al_Halaby.pdf": "/static/media/CV_Soliman_Al_Halaby.fae2a70c.pdf",
     "static/media/agoraMuseum.png": "/static/media/agoraMuseum.59ef3931.png",
     "static/media/canLinkMe.png": "/static/media/canLinkMe.c97b160d.png",
@@ -27,13 +27,14 @@
     "static/media/oralB.png": "/static/media/oralB.3e05145d.png",
     "static/media/phone.svg": "/static/media/phone.35c2ddd5.svg",
     "static/media/savoirMag.png": "/static/media/savoirMag.20de1326.png",
+    "static/media/selfer.png": "/static/media/selfer.5a081161.png",
     "static/media/showroom.png": "/static/media/showroom.e5a539a7.png",
     "static/media/videoPython.mp4": "/static/media/videoPython.861d4878.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.23b93bc1.chunk.js",
+    "static/js/2.a9d00b70.chunk.js",
     "static/css/main.708dfbf2.chunk.css",
-    "static/js/main.f4816fa0.chunk.js"
+    "static/js/main.2d49ef10.chunk.js"
   ]
 }
