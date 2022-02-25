@@ -6,6 +6,7 @@ function Card(props) {
     const {
         title,
         projectImage,
+        projectImg,
         projectLink,
         mates,
         phoneColor,
@@ -18,17 +19,28 @@ function Card(props) {
         madeForWho,
         invisible,
         gradeProject,
+        cursorRef,
     } = props;
 
+    
+    function updateCursor(e) {
+        console.log(cursorRef.current)
+        cursorRef.current.style.width = "30px";
+        cursorRef.current.style.height = "30px";
+    }
+
+    function resetCursor(e) {
+        cursorRef.current.style.width = "25px";
+        cursorRef.current.style.height = "25px";
+    }
+
     return (
-        <div className="cardContainer">
+        <div onMouseEnter={updateCursor} onMouseLeave={resetCursor} className="cardContainer">
             <div className="card">
                 <a className="projectLink" rel="noopener noreferrer" href={projectLink} target="_blank">
-                    <img
-                        className="projectImg"
+                    {projectImg || <img className="projectImg"
                         src={projectImage}
-                        alt="Project representation"
-                    />
+                        alt="Project representation" />}
                 </a>
                 <div className="cardTitle">
                     <img
